@@ -1,0 +1,25 @@
+{
+  "name": "chrome-paste-rtf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoncoen/chrome-paste-rtf.git"
+  },
+  "author": "zoncoen",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zoncoen/chrome-paste-rtf/issues"
+  },
+  "homepage": "https://github.com/zoncoen/chrome-paste-rtf#readme",
+  "devDependencies": {
+    "@types/chrome": "0.0.88"
+  },
+  "dependencies": {
+    "@iarna/rtf-to-html": "^1.1.0"
+  }
+}
