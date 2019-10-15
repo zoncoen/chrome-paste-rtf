@@ -32,9 +32,22 @@
   //   }
   // },
   // "chrome_url_overrides": {...},
-  // "commands": {...},
+  "commands": {
+    "paste": {
+      "description": "paste",
+      "suggested_key": {
+        "default": "Ctrl+V",
+        "mac": "Command+V"
+      }
+    }
+  },
   // "content_capabilities": ...,
-  // "content_scripts": [{...}],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./lib/content.js"]
+    }
+  ],
   // "content_security_policy": "policyString",
   // "converted_from_user_script": ...,
   // "current_locale": ...,
@@ -68,7 +81,7 @@
   //   "chrome_style": true,
   //   "page": "options.html"
   // },
-  "permissions": ["contextMenus", "clipboardRead"]
+  "permissions": ["contextMenus", "clipboardRead", "clipboardWrite"]
   // "platforms": ...,
   // "replacement_web_app": ...,
   // "requirements": {...},
