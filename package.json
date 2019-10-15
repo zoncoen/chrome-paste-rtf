@@ -26,6 +26,6 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "@iarna/rtf-to-html": "^1.1.0"
+    "@iarna/rtf-to-html": "git+https://github.com/Romick2005/rtf-to-html.git#master"
   }
 }
