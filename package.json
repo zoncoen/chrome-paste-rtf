@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +19,11 @@
   },
   "homepage": "https://github.com/zoncoen/chrome-paste-rtf#readme",
   "devDependencies": {
-    "@types/chrome": "0.0.88"
+    "@types/chrome": "0.0.88",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
   },
   "dependencies": {
     "@iarna/rtf-to-html": "^1.1.0"
