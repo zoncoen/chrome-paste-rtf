@@ -1,4 +1,5 @@
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
-  console.log(message);
-  document.execCommand('paste');
+    console.log("recieve");
+    document.execCommand("paste");
+    return true;
 });
